@@ -1,0 +1,12 @@
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\bin\Debug\MyProjectRoomManagement.exe.config
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\bin\Debug\MyProjectRoomManagement.exe
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\bin\Debug\MyProjectRoomManagement.pdb
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.csproj.AssemblyReference.cache
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.Form1.resources
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.Properties.Resources.resources
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.csproj.GenerateResource.cache
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.csproj.CoreCompileInputs.cache
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.exe
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.pdb
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.Home.resources
+W:\DotNet\Software\RoomManagement\MyProjectRoomManagement\obj\Debug\MyProjectRoomManagement.Save.resources

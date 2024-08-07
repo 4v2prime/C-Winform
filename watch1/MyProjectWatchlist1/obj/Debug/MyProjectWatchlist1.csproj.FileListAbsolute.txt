@@ -1,0 +1,16 @@
+W:\DotNet\Software\watch1\MyProjectWatchlist1\bin\Debug\MyProjectWatchlist1.exe.config
+W:\DotNet\Software\watch1\MyProjectWatchlist1\bin\Debug\MyProjectWatchlist1.exe
+W:\DotNet\Software\watch1\MyProjectWatchlist1\bin\Debug\MyProjectWatchlist1.pdb
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.csproj.AssemblyReference.cache
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.Anime.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.Form1.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.Home.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.Properties.Resources.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.csproj.GenerateResource.cache
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.csproj.CoreCompileInputs.cache
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.exe
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.pdb
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.frmanime1.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.ckDrama.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.Hollywood.resources
+W:\DotNet\Software\watch1\MyProjectWatchlist1\obj\Debug\MyProjectWatchlist1.Indian.resources

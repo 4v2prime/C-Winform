@@ -1,0 +1,13 @@
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\bin\Debug\MDItask3ado.exe.config
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\bin\Debug\MDItask3ado.exe
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\bin\Debug\MDItask3ado.pdb
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.csproj.AssemblyReference.cache
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.Form1.resources
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.frmHome.resources
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.frmMenu.resources
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.Properties.Resources.resources
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.csproj.GenerateResource.cache
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.csproj.CoreCompileInputs.cache
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.exe
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.pdb
+W:\DotNet\c#basic\MDItask3ado\MDItask3ado\obj\Debug\MDItask3ado.frmOrder.resources

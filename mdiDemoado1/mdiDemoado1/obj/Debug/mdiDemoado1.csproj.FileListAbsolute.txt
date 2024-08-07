@@ -1,0 +1,10 @@
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\bin\Debug\mdiDemoado1.exe.config
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\bin\Debug\mdiDemoado1.exe
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\bin\Debug\mdiDemoado1.pdb
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.csproj.AssemblyReference.cache
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.Form1.resources
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.Properties.Resources.resources
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.csproj.GenerateResource.cache
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.csproj.CoreCompileInputs.cache
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.exe
+W:\DotNet\c#basic\mdiDemoado1\mdiDemoado1\obj\Debug\mdiDemoado1.pdb

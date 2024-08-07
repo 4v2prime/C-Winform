@@ -1,0 +1,10 @@
+W:\DotNet\Software\demoLsitview1\demoLsitview1\bin\Debug\demoLsitview1.exe.config
+W:\DotNet\Software\demoLsitview1\demoLsitview1\bin\Debug\demoLsitview1.exe
+W:\DotNet\Software\demoLsitview1\demoLsitview1\bin\Debug\demoLsitview1.pdb
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.csproj.AssemblyReference.cache
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.Form1.resources
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.Properties.Resources.resources
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.csproj.GenerateResource.cache
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.csproj.CoreCompileInputs.cache
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.exe
+W:\DotNet\Software\demoLsitview1\demoLsitview1\obj\Debug\demoLsitview1.pdb

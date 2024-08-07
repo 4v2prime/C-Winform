@@ -1,0 +1,11 @@
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\bin\Debug\demoGetSet1.exe.config
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\bin\Debug\demoGetSet1.exe
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\bin\Debug\demoGetSet1.pdb
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.csproj.AssemblyReference.cache
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.frm1.resources
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.Properties.Resources.resources
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.csproj.GenerateResource.cache
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.csproj.CoreCompileInputs.cache
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.exe
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.pdb
+W:\DotNet\c#basic\demoGetSet1\demoGetSet1\obj\Debug\demoGetSet1.Form2.resources

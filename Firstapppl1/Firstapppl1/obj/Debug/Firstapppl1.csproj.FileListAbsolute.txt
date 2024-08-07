@@ -1,0 +1,10 @@
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\bin\Debug\Firstapppl1.exe.config
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\bin\Debug\Firstapppl1.exe
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\bin\Debug\Firstapppl1.pdb
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.csproj.AssemblyReference.cache
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.Home.resources
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.Properties.Resources.resources
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.csproj.GenerateResource.cache
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.csproj.CoreCompileInputs.cache
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.exe
+W:\DotNet\c#basic\Firstapppl1\Firstapppl1\obj\Debug\Firstapppl1.pdb

@@ -1,0 +1,10 @@
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.csproj.AssemblyReference.cache
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.Form1.resources
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.Properties.Resources.resources
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.csproj.GenerateResource.cache
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.csproj.CoreCompileInputs.cache
+W:\DotNet\c#basic\Task1frm\Task1frm\bin\Debug\Task1frm.exe.config
+W:\DotNet\c#basic\Task1frm\Task1frm\bin\Debug\Task1frm.exe
+W:\DotNet\c#basic\Task1frm\Task1frm\bin\Debug\Task1frm.pdb
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.exe
+W:\DotNet\c#basic\Task1frm\Task1frm\obj\Debug\Task1frm.pdb

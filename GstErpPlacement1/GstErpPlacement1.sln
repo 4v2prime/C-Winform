@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GstErpPlacement1", "GstErpPlacement1\GstErpPlacement1.csproj", "{A458F950-5244-4209-B134-F6DF00E2CC24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A458F950-5244-4209-B134-F6DF00E2CC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A458F950-5244-4209-B134-F6DF00E2CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A458F950-5244-4209-B134-F6DF00E2CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A458F950-5244-4209-B134-F6DF00E2CC24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CA210E-8B74-498E-A3AA-A0756A6BF108}
+	EndGlobalSection
+EndGlobal

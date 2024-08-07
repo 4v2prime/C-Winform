@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DialogHost.Avalonia</name>
+    </assembly>
+    <members>
+        <member name="M:DialogHostAvalonia.DialogClosingEventArgs.Cancel">
+            <summary>
+            Cancel the close.
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogClosingEventArgs.IsCancelled">
+            <summary>
+            Indicates if the close has already been cancelled.
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogClosingEventArgs.Parameter">
+            <summary>
+            Gets the parameter originally provided to <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/>/
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogClosingEventArgs.Session">
+            <summary>
+            Allows interaction with the current dialog session.
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogHost.PopupPositioner">
+            <summary>
+            Allows to override popup positioner
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogHost.CurrentSession">
+            <summary>
+            Returns a DialogSession for the currently open dialog for managing it programmatically. If no dialog is open, CurrentSession will return null
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogOpenedEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>        
+            <param name="openedEventHandler">Allows access to opened event which would otherwise have been subscribed to on a instance.</param>        
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogClosingEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="closingEventHandler">Allows access to closing event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogOpenedEventHandler,DialogHostAvalonia.DialogClosingEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>        
+            <param name="openedEventHandler">Allows access to opened event which would otherwise have been subscribed to on a instance.</param>
+            <param name="closingEventHandler">Allows access to closing event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,System.String)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="dialogIdentifier"><see cref="P:DialogHostAvalonia.DialogHost.Identifier"/> of the instance where the dialog should be shown. Typically this will match an identifier set in XAML. <c>null</c> is allowed.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,System.String,DialogHostAvalonia.DialogOpenedEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="dialogIdentifier"><see cref="P:DialogHostAvalonia.DialogHost.Identifier"/> of the instance where the dialog should be shown. Typically this will match an identifier set in XAML. <c>null</c> is allowed.</param>
+            <param name="openedEventHandler">Allows access to opened event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,System.String,DialogHostAvalonia.DialogClosingEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="dialogIdentifier"><see cref="P:DialogHostAvalonia.DialogHost.Identifier"/> of the instance where the dialog should be shown. Typically this will match an identifier set in XAML. <c>null</c> is allowed.</param>        
+            <param name="closingEventHandler">Allows access to closing event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,System.String,DialogHostAvalonia.DialogOpenedEventHandler,DialogHostAvalonia.DialogClosingEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="dialogIdentifier"><see cref="P:DialogHostAvalonia.DialogHost.Identifier"/> of the instance where the dialog should be shown. Typically this will match an identifier set in XAML. <c>null</c> is allowed.</param>
+            <param name="openedEventHandler">Allows access to opened event which would otherwise have been subscribed to on a instance.</param>
+            <param name="closingEventHandler">Allows access to closing event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogHost)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="instance">Instance of <see cref="T:DialogHostAvalonia.DialogHost"/> where the dialog should be shown.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogHost,DialogHostAvalonia.DialogOpenedEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="instance">Instance of <see cref="T:DialogHostAvalonia.DialogHost"/> where the dialog should be shown.</param>
+            <param name="openedEventHandler">Allows access to opened event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogHost,DialogHostAvalonia.DialogClosingEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="instance">Instance of <see cref="T:DialogHostAvalonia.DialogHost"/> where the dialog should be shown.</param>
+            <param name="closingEventHandler">Allows access to closing event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Show(System.Object,DialogHostAvalonia.DialogHost,DialogHostAvalonia.DialogOpenedEventHandler,DialogHostAvalonia.DialogClosingEventHandler)">
+            <summary>
+            Shows a modal dialog. To use, a <see cref="T:DialogHostAvalonia.DialogHost"/> instance must be in a visual tree (typically this may be specified towards the root of a Window's XAML).
+            </summary>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="instance">Instance of <see cref="T:DialogHostAvalonia.DialogHost"/> where the dialog should be shown.</param>
+            <param name="openedEventHandler">Allows access to opened event which would otherwise have been subscribed to on a instance.</param>
+            <param name="closingEventHandler">Allows access to closing event which would otherwise have been subscribed to on a instance.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand"/> command.</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Close(System.String)">
+            <summary>Close a modal dialog.</summary>
+            <param name="dialogIdentifier">of the instance where the dialog should be closed. Typically this will match an identifier set in XAML.</param>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.Close(System.String,System.Object)">
+            <summary>
+             Close a modal dialog.
+            </summary>
+            <param name="dialogIdentifier"> of the instance where the dialog should be closed. Typically this will match an identifier set in XAML. </param>
+            <param name="parameter"> to provide to close handler</param>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.GetDialogSession(System.String)">
+            <summary>
+            Retrieve the current dialog session for a DialogHost
+            </summary>
+            <param name="dialogIdentifier">The identifier to use to retrieve the DialogHost</param>
+            <returns>The DialogSession if one is in process, or null</returns>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHost.IsDialogOpen(System.String)">
+            <summary>
+            dialog instance exists
+            </summary>
+            <param name="dialogIdentifier">of the instance where the dialog should be closed. Typically this will match an identifier set in XAML.</param>
+            <returns></returns>
+        </member>
+        <member name="E:DialogHostAvalonia.DialogHost.DialogOpened">
+            <summary>
+            Raised when a dialog is opened.
+            </summary>
+        </member>
+        <member name="E:DialogHostAvalonia.DialogHost.DialogClosing">
+            <summary>
+            Raised just before a dialog is closed.
+            </summary>
+        </member>
+        <member name="F:DialogHostAvalonia.DialogHostStyle.CornerRadiusProperty">
+            <summary>
+            Controls CornerRadius DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="F:DialogHostAvalonia.DialogHostStyle.ClipToBoundsProperty">
+            <summary>
+            Controls ClipToBounds DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="F:DialogHostAvalonia.DialogHostStyle.BorderBrushProperty">
+            <summary>
+            Controls BorderBrush DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="F:DialogHostAvalonia.DialogHostStyle.BorderThicknessProperty">
+            <summary>
+            Controls BorderThickness DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyle.GetCornerRadius(DialogHostAvalonia.DialogHost)">
+            <summary>
+            Get CornerRadius in DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyle.GetClipToBounds(DialogHostAvalonia.DialogHost)">
+            <summary>
+            Get ClipToBounds in DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyle.SetCornerRadius(DialogHostAvalonia.DialogHost,Avalonia.CornerRadius)">
+            <summary>
+            Set CornerRadius in DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyle.SetClipToBounds(DialogHostAvalonia.DialogHost,System.Boolean)">
+            <summary>
+            Set ClipToBounds in DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyle.SetBorderBrush(DialogHostAvalonia.DialogHost,Avalonia.Media.IBrush)">
+            <summary>
+            Set BorderBrush in DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyle.SetBorderThickness(DialogHostAvalonia.DialogHost,System.Double)">
+            <summary>
+            Set BorderThickness in DialogHost's popup background.
+            Works only for default DialogHost theme!
+            </summary>
+        </member>
+        <member name="T:DialogHostAvalonia.DialogHostStyles">
+            <summary>
+            Provides styles set for using <see cref="T:DialogHostAvalonia.DialogHost"/>
+            </summary>
+            <remarks>
+            Add it to your App.axaml file:
+            <code>
+            &lt;Application ...
+                        xmlns:dialogHostAvalonia="clr-namespace:DialogHostAvalonia;assembly=DialogHost.Avalonia"&gt;
+            
+               &lt;Application.Styles&gt;
+                   ...
+                   &lt;dialogHostAvalonia:DialogHostStyles/&gt;
+               &lt;/Application.Styles&gt;
+            &lt;/Application&gt;
+            </code>
+            </remarks>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyles.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="M:DialogHostAvalonia.DialogHostStyles.#ctor(Avalonia.Controls.IResourceHost)">
+            <inheritdoc />
+        </member>
+        <member name="P:DialogHostAvalonia.DialogOpenedEventArgs.Session">
+            <summary>
+            Allows interation with the current dialog session.
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogOverlayPopupHost.IsActuallyOpen">
+            <summary>
+            Controls <see cref="M:DialogHostAvalonia.DialogOverlayPopupHost.Show"/> and <see cref="M:DialogHostAvalonia.DialogOverlayPopupHost.Hide"/> calls. Used for closing animations
+            </summary>
+            <remarks>
+            Actually you should use <see cref="P:DialogHostAvalonia.DialogOverlayPopupHost.IsOpen"/> for opening and closing dialog
+            </remarks>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogOverlayPopupHost.ArrangeCore(Avalonia.Rect)">
+            <inheritdoc />
+        </member>
+        <member name="M:DialogHostAvalonia.DialogOverlayPopupHost.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)">
+            <inheritdoc />
+        </member>
+        <member name="T:DialogHostAvalonia.DialogSession">
+            <summary>
+            Allows an open dialog to be managed. Use is only permitted during a single display operation.
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogSession.IsEnded">
+            <summary>
+            Indicates if the dialog session has ended.  Once ended no further method calls will be permitted.
+            </summary>
+            <remarks>
+            Client code cannot set this directly, this is internally managed.  To end the dialog session use <see cref="M:DialogHostAvalonia.DialogSession.Close"/>.
+            </remarks>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogSession.CloseParameter">
+            <summary>
+            The parameter passed to the <see cref="P:DialogHostAvalonia.DialogHost.CloseDialogCommand" /> and return by <see cref="M:DialogHostAvalonia.DialogHost.Show(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:DialogHostAvalonia.DialogSession.Content">
+            <summary>
+            Gets the <see cref="P:DialogHostAvalonia.DialogHost.DialogContent"/> which is currently displayed, so this could be a view model or a UI element.
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogSession.UpdateContent(System.Object)">
+            <summary>
+            Update the current content in the dialog.
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogSession.Close">
+            <summary>
+            Closes the dialog.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Thrown if the dialog session has ended, or a close operation is currently in progress.</exception>
+        </member>
+        <member name="M:DialogHostAvalonia.DialogSession.Close(System.Object)">
+            <summary>
+            Closes the dialog.
+            </summary>
+            <param name="parameter">Result parameter which will be returned in <see cref="P:DialogHostAvalonia.DialogClosingEventArgs.Parameter"/> or from <see cref="M:DialogHostAvalonia.DialogHost.Show(System.Object)"/> method.</param>
+            <exception cref="T:System.InvalidOperationException">Thrown if the dialog session has ended, or a close operation is currently in progress.</exception>
+        </member>
+        <member name="T:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner">
+            <summary>
+            Positions the popup according to <see cref="P:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner.HorizontalAlignment"/>, <see cref="P:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner.VerticalAlignment"/> and even <see cref="P:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner.Margin"/>
+            </summary>
+            <remarks>
+            Default values for <see cref="P:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner.HorizontalAlignment"/> and <see cref="P:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner.VerticalAlignment"/> is <c>Stretch</c> and it will be act TopLeft alignment
+            </remarks>
+        </member>
+        <member name="M:DialogHostAvalonia.Positioners.AlignmentDialogPopupPositioner.Update(Avalonia.Size,Avalonia.Size)">
+            <inheritdoc />
+        </member>
+        <member name="T:DialogHostAvalonia.Positioners.CenteredDialogPopupPositioner">
+            <summary>
+            Positions the popup at the screen center
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.Positioners.CenteredDialogPopupPositioner.Update(Avalonia.Size,Avalonia.Size)">
+            <inheritdoc />
+        </member>
+        <member name="T:DialogHostAvalonia.Positioners.IDialogPopupPositioner">
+            <summary>
+            Allows you to define custom positioners for your <see cref="T:DialogHostAvalonia.DialogHost"/>'s popups
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.Positioners.IDialogPopupPositioner.Update(Avalonia.Size,Avalonia.Size)">
+            <summary>
+            Called when we need to determine popup location (after opening, window resizing, etc)
+            </summary>
+            <remarks>
+            Use <see cref="M:Avalonia.Controls.Primitives.PopupPositioning.IManagedPopupPositionerPopup.MoveAndResize(Avalonia.Point,Avalonia.Size)"/> to manipulate popup
+            </remarks>
+            <param name="parameters">Parameters for popup</param>
+            <param name="anchorRectangle">Owner's rectangle size</param>
+            <param name="size">Size of popup</param>
+        </member>
+        <member name="T:DialogHostAvalonia.Utilities.Extensions">
+            <remarks>
+            Copied from AvaloniaUI
+            </remarks>
+        </member>
+        <member name="T:DialogHostAvalonia.Utilities.MultiDynamicResourceExtension">
+            <summary>
+            Allows to bind to several different DynamicResources
+            </summary>
+        </member>
+        <member name="M:DialogHostAvalonia.Utilities.MultiDynamicResourceExtension.MultiDynamicResourceObservable.Subscribe(System.IObserver{System.Object})">
+            <inheritdoc />
+        </member>
+        <member name="M:DialogHostAvalonia.Utilities.MultiDynamicResourceExtension.MultiDynamicResourceObservable.Dispose">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

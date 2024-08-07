@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrettyMessageBox</name>
+    </assembly>
+    <members>
+        <member name="T:Pretty.PrettyMessageBox">
+            <summary>
+            Class to show the PrettyMessageBox
+            </summary>
+        </member>
+        <member name="M:Pretty.PrettyMessageBox.Show(System.String,System.String)">
+            <summary>
+            Without image, with <see cref="F:Pretty.ButtonOptions.Ok"/> button available
+            </summary>
+            <param name="title"><see cref="T:Pretty.PrettyMessageBox"/> Title</param>
+            <param name="message"><see cref="T:Pretty.PrettyMessageBox"/> Content</param>
+        </member>
+        <member name="M:Pretty.PrettyMessageBox.Show(System.String,System.String,Pretty.ImageOptions)">
+            <summary>
+            Image by choice, and with <see cref="F:Pretty.ButtonOptions.Ok"/> button available
+            </summary>
+            <param name="title"><see cref="T:Pretty.PrettyMessageBox"/> Title</param>
+            <param name="message"><see cref="T:Pretty.PrettyMessageBox"/> Content</param>
+            <param name="image">Image to show next to content</param>
+        </member>
+        <member name="M:Pretty.PrettyMessageBox.Show(System.String,System.Exception)">
+            <summary>
+            Shows the <see cref="P:System.Exception.Message"/> in the content, and a Exception Details View with the <see cref="P:System.Exception.StackTrace"/>, only with <see cref="F:Pretty.ButtonOptions.Ok"/> button available
+            </summary>
+            <param name="title"><see cref="T:Pretty.PrettyMessageBox"/> Title</param>
+            <param name="exception"><see cref="T:System.Exception"/> to show the <see cref="P:System.Exception.Message"/> in the content and <see cref="P:System.Exception.StackTrace"/> in the exception details view</param>
+        </member>
+        <member name="M:Pretty.PrettyMessageBox.Show(System.String,System.String,System.Exception)">
+            <summary>
+            Shows the <paramref name="preExceptionMessage"/> and the <see cref="P:System.Exception.Message"/> in the content, and a Exception Details View with the <see cref="P:System.Exception.StackTrace"/>, only with <see cref="F:Pretty.ButtonOptions.Ok"/> button available
+            </summary>
+            <param name="title"><see cref="T:Pretty.PrettyMessageBox"/> Title</param>
+            <param name="preExceptionMessage">Message to show in the content before the exception.Message</param>
+            <param name="exception"><see cref="T:System.Exception"/> to show the <see cref="P:System.Exception.Message"/> in the content and <see cref="P:System.Exception.StackTrace"/> in the exception details view</param>
+        </member>
+        <member name="M:Pretty.PrettyMessageBox.Show(System.String,System.String,Pretty.ButtonOptions,System.String)">
+            <summary>
+            Without <see cref="T:Pretty.ImageOptions"/>, and <see cref="T:Pretty.ButtonOptions"/> by user choice
+            </summary>
+            <param name="title"><see cref="T:Pretty.PrettyMessageBox"/> Title</param>
+            <param name="message"><see cref="T:Pretty.PrettyMessageBox"/> Content</param>
+            <param name="buttonOptions">Button configuration to show under the content</param>
+            <param name="auxiliaryButtonContent">Text to show in the auxiliary button, if chosen in the <paramref name="buttonOptions"/></param>
+            <returns>Returns <see cref="F:Pretty.MessageBoxResults.Positive"/> if user click in "Ok" or "Yes", <see cref="F:Pretty.MessageBoxResults.Negative"/> if user click in "Cancel" or "No", and <see cref="F:Pretty.MessageBoxResults.Auxiliary"/> if user click in the Auxiliary Button</returns>
+        </member>
+        <member name="M:Pretty.PrettyMessageBox.Show(System.String,System.String,Pretty.ImageOptions,Pretty.ButtonOptions,System.String)">
+            <summary>
+            <see cref="T:Pretty.ImageOptions"/> and <see cref="T:Pretty.ButtonOptions"/> by user choice
+            </summary>
+            <param name="title"><see cref="T:Pretty.PrettyMessageBox"/> Title</param>
+            <param name="message"><see cref="T:Pretty.PrettyMessageBox"/> Content</param>
+            <param name="image">Image to show next to content</param>
+            <param name="buttonOptions">Button configuration to show under the content</param>
+            <param name="auxiliaryButtonContent">Text to show in the auxiliary button, if chosen in the <paramref name="buttonOptions"/></param>
+            <returns>Returns <see cref="F:Pretty.MessageBoxResults.Positive"/> if user click in "Ok" or "Yes", <see cref="F:Pretty.MessageBoxResults.Negative"/> if user click in "Cancel" or "No", and <see cref="F:Pretty.MessageBoxResults.Auxiliary"/> if user click in the Auxiliary Button</returns>
+        </member>
+        <member name="T:Pretty.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Pretty.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Pretty.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:Pretty.Views.ExceptionDetailsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Pretty.Views.MessageBoxView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

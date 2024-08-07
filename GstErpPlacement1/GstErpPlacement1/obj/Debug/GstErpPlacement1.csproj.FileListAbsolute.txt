@@ -1,0 +1,12 @@
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\bin\Debug\GstErpPlacement1.exe.config
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\bin\Debug\GstErpPlacement1.exe
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\bin\Debug\GstErpPlacement1.pdb
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\bin\Debug\Siticone.Desktop.UI.dll
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.csproj.AssemblyReference.cache
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.Form1.resources
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.Properties.Resources.resources
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.csproj.GenerateResource.cache
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.csproj.CoreCompileInputs.cache
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.csproj.CopyComplete
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.exe
+W:\DotNet\Software\GstErpPlacement1\GstErpPlacement1\obj\Debug\GstErpPlacement1.pdb
