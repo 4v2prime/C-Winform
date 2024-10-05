@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\winform_otp\\frmforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|solutionrelative:winform_otp\\frmforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\winform_otp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|solutionrelative:winform_otp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|c:\\users\\mi studio\\desktop\\winform\\c-winform\\winform_otp\\winform_otp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|solutionrelative:winform_otp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\winform_otp\\frmforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11325AED-BEF2-4460-BAC3-BB43F6D754DB}|WinForm_Otp\\WinForm_Otp.csproj|solutionrelative:winform_otp\\frmforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2090367263:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmForgotPassword.cs",
+              "RelativeDocumentMoniker": "WinForm_Otp\\frmForgotPassword.cs",
+              "ToolTip": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmForgotPassword.cs",
+              "RelativeToolTip": "WinForm_Otp\\frmForgotPassword.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T16:26:40.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmForgotPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmForgotPassword.cs",
+              "RelativeDocumentMoniker": "WinForm_Otp\\frmForgotPassword.cs",
+              "ToolTip": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmForgotPassword.cs [Design]",
+              "RelativeToolTip": "WinForm_Otp\\frmForgotPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:08:46.598Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmLogin.cs",
+              "RelativeDocumentMoniker": "WinForm_Otp\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmLogin.cs",
+              "RelativeToolTip": "WinForm_Otp\\frmLogin.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAjwBkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:05:42.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmLogin.cs",
+              "RelativeDocumentMoniker": "WinForm_Otp\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\MI Studio\\Desktop\\winform\\C-Winform\\WinForm_Otp\\WinForm_Otp\\frmLogin.cs [Design]",
+              "RelativeToolTip": "WinForm_Otp\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:56:39.49Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
