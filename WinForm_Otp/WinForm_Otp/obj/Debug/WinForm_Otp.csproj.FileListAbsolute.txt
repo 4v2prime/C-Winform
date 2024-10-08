@@ -9,3 +9,14 @@ C:\Users\MI Studio\source\repos\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.cs
 C:\Users\MI Studio\source\repos\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.csproj.CoreCompileInputs.cache
 C:\Users\MI Studio\source\repos\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.exe
 C:\Users\MI Studio\source\repos\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.pdb
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\bin\Debug\WinForm_Otp.exe.config
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\bin\Debug\WinForm_Otp.exe
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\bin\Debug\WinForm_Otp.pdb
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.csproj.AssemblyReference.cache
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.frmForgotPassword.resources
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.frmLogin.resources
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.Properties.Resources.resources
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.csproj.GenerateResource.cache
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.csproj.CoreCompileInputs.cache
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.exe
+C:\Users\MI Studio\Desktop\winform\C-Winform\WinForm_Otp\WinForm_Otp\obj\Debug\WinForm_Otp.pdb

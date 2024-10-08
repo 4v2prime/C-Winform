@@ -12,7 +12,7 @@ namespace A1_ShopManagement
 {
     public class clsShopManage
     {
-        SqlConnection con = new SqlConnection("Data Source=PRIME;Initial Catalog=ShopManagement;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=PRIME\\SQLEXPRESS;Initial Catalog=ShopManagement;Integrated Security=True;");
         public string UserType { get; set; }
         public string UserName { get; set; }
         public string UserPassword { get; set; }

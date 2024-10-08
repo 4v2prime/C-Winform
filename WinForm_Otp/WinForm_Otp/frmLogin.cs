@@ -9,6 +9,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WinForm_Otp
 {
@@ -30,7 +31,25 @@ namespace WinForm_Otp
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Login Failed..!","Invalid Password",MessageBoxButtons.OKCancel,MessageBoxIcon.Error);
+            try
+            {
+                dbHelper obj = new dbHelper();
+                obj.email = txtEmail.Text;
+                obj.passwors=txtpassword.Text;
+                SqlDataReader dr =obj.Login();
+                if (dr.Read())
+                {
+                    MessageBox.Show("Login Success..!", "Success", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                    MessageBox.Show("Login Failed..!", "Invalid Credentials", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                }
+            }
+            catch 
+            {
+                MessageBox.Show("Error..!", "................?", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void lnklblForgotpass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
