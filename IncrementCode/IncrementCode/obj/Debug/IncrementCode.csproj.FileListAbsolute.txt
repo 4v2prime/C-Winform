@@ -1,0 +1,7 @@
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\bin\Debug\IncrementCode.exe.config
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\bin\Debug\IncrementCode.exe
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\bin\Debug\IncrementCode.pdb
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\obj\Debug\IncrementCode.csproj.AssemblyReference.cache
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\obj\Debug\IncrementCode.csproj.CoreCompileInputs.cache
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\obj\Debug\IncrementCode.exe
+C:\Users\MI Studio\Desktop\winform\C-Winform\IncrementCode\IncrementCode\obj\Debug\IncrementCode.pdb
